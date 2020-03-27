@@ -6,3 +6,6 @@ services:
       context: .
     volumes:
       - .:/app
+    ports:
+      - 5000:5000
+    command: python src/spacy_server.py
