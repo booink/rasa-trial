@@ -7,7 +7,6 @@ RUN apt-get update -q -y && \
 ADD ./requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
-RUN pip install "https://github.com/megagonlabs/ginza/releases/download/latest/ginza-latest.tar.gz"
 
 ADD . /app
 WORKDIR /app
