@@ -26,3 +26,10 @@ $ docker-compose run --rm rasa bash
 /app# rasa shell nlu
 ```
 
+GiNZAで依存構造解析・可視化するサーバーを起動する
+
+```sh
+$ docker-compose up -d
+```
+
+[http://localhost:5000/](http://localhost:5000/) を確認。
