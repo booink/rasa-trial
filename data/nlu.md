@@ -54,3 +54,8 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:restaurant_ja
+- [渋谷](location)で美味しい[イタリアン](restaurant_type)ない？
+- [和食](restaurant_type)食べたいんだけど、[六本木](location)におすすめある？
+- 今度[麻布](location)行くんだけど、[フレンチ](restaurant_type)のお店教えて
